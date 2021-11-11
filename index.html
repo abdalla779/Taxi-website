@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Welcome to my taxi website</title>
+    </head>
+    <body>
+        <div class="arrival-airport">
+            <p>Arrival Airport</p>
+            <select id="arrival-dropdown" name="arrival-location" required>
+                <option disabled selected value>Select Arrival Airport</option>
+                <option value="airport1">Airport1</option>
+                <option value="airport2">Airport2</option>
+                <option value="airport3">Airport3</option>
+                <option value="airport4">Airport4</option>
+                <option value="airport5">Airport5</option>
+                </select>
+        </div>
+        <div class="arrival-date">
+            <p>Arrival Date</p>
+            <input type="date" placeholder="enter arrival date">
+        </div>
+        <div class="departure-airport">
+            <p>Departure Airport</p>
+            <select id="departure-dropdown" name="departure-location" required>
+                <option disabled selected value>Select Departure Airport</option>
+                <option value="airport1">Airport1</option>
+                <option value="airport2">Airport2</option>
+                <option value="airport3">Airport3</option>
+                <option value="airport4">Airport4</option>
+                <option value="airport5">Airport5</option>
+                </select>
+        </div>
+        <div class="departure-date">
+            <p>Departure Date</p>
+            <input type="date" placeholder="enter departure date">
+        </div>
+        <div class="select-vehicle">
+            <h2>Select Vehicle Type</h2>
+            <div class="vehicles-type">
+                <div class="vehicle">
+                    <img src="images/1.jpg" alt="">
+                    <h4>Economy</h4>
+                </div>
+                <div class="vehicle">
+                    <img src="images/1.jpg" alt="">
+                    <h4>Compact</h4>
+                </div>
+                <div class="vehicle">
+                    <img src="images/1.jpg" alt="">
+                    <h4>Standard</h4>
+                </div>
+            </div>
+        </div>
+        <div class="content-info">
+            <p>Name</p>
+            <input type="text" id="name" placeholder="enter your name" required><br>
+            <p>E-mail</p>
+            <input type="email" id="email" placeholder="enter your email" required><br>
+            <p>Phone</p>
+            <input type="text" id="phone" placeholder="enter your phone number" required><br>
+            <p>Address</p>
+            <input type="text" id="address" placeholder="enter your address" required><br>
+            <p>Country</p>
+            <input type="text" id="country" placeholder="enter your country" required><br><br>
+            <div class="btn">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+        <div class="content-rate">
+            <table>
+                <thead>
+                    <caption>Rate Quote</caption>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rental Rate</td>
+                        <td>$376.00</td>
+                        </tr>
+                        <tr>
+                        <td>Taxes and Fees</td>
+                        <td></td>
+                        </tr>
+                        <tr>
+                        <td>Surcharge</td>
+                        <td>$56.40</td>
+                        </tr>
+                        <tr>
+                        <td>Gov Tax</td>
+                        <td>$37.60</td>
+                        </tr>
+                        <tr>
+                        <td>Airport/Location Fee</td>
+                        <td>$20.00</td>
+                        </tr>
+                        <tr>
+                        <td>Free Mileage</td>
+                        <td>0 mi</td>
+                        </tr>
+                        <tr>
+                        <td>Total Charges</td>
+                        <td>$376.00</td>
+                        </tr>
+                        <tr>
+                        <td colspan="2">All rates are in USD</td>
+                        </tr>
+                </tbody>
+                </table>
+        </div>
+    </body>
+</html>
